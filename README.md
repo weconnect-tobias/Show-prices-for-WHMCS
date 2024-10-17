@@ -7,13 +7,13 @@ This plugin is compatible with PHP 8.x and the latest PHP version.
 The WHMCS Price Plugin is designed to integrate WHMCS prices into your WordPress site. Originally created by MohammedReza Kamali.
 Dynamic way for extracting product & domain price from WHMCS for use on the pages of your website!
 
-Plugin features:
+## Plugin features:
 * Extract product price.
 * Extract domain price.
 * Use this plugin to Show price in posts and pages.
 * Use this plugin to Show price in theme.
 
-##Product Pricing
+## Product Pricing
 This is shortcode for extract product price:
 <pre><code>[whmcs pid="1" bc="1m"]</code></pre>
 1. Change pid value in shortcode with your Product ID.
@@ -25,7 +25,7 @@ Annually (1 Year) : bc="1y"
 Biennially (2 Year) : bc="2y"
 Triennially (3 Year) : bc="3y"</code></pre>
 
-##Domain Pricing
+## Domain Pricing
 
 This is shortcode for extract domain price:
 
