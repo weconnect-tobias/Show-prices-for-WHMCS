@@ -37,6 +37,7 @@ This is shortcode for extract domain price:
 Biennially (2 Year) : reg="2y"
 Triennially (3 Year) : reg="3y"
 ...</code></pre>
+If left like this <pre><code>[whmcs tld]</code></pre> then it will fetch all TLDs from WHMCS.
 
 ## Installation
 
