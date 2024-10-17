@@ -5,6 +5,38 @@ This plugin is compatible with PHP 8.x and the latest PHP version.
 ## Description
 
 The WHMCS Price Plugin is designed to integrate WHMCS prices into your WordPress site. Originally created by MohammedReza Kamali.
+Dynamic way for extracting product & domain price from WHMCS for use on the pages of your website!
+
+Plugin features:
+* Extract product price.
+* Extract domain price.
+* Use this plugin to Show price in posts and pages.
+* Use this plugin to Show price in theme.
+
+##Product Pricing
+This is shortcode for extract product price:
+<pre><code>[whmcs pid="1" bc="1m"]</code></pre>
+1. Change pid value in shortcode with your Product ID.
+2. Change bc value in shortcode with your BillingCycle Product. BillingCycles are :
+<pre><code>Monthly (1 Month) : bc="1m"
+Quarterly (3 Month) : bc="3m"
+Semiannually (6 Month) : bc="6m"
+Annually (1 Year) : bc="1y"
+Biennially (2 Year) : bc="2y"
+Triennially (3 Year) : bc="3y"</code></pre>
+
+##Domain Pricing
+
+This is shortcode for extract domain price:
+
+<pre><code>[whmcs tld="com" type="register" reg="1y"]</code></pre>
+1. Change tld value in shortcode with your Domain TLD (com, org, net, ...).
+2. Change type value in shortcode with register, renew, transfer .
+3. Change reg value in shortcode with your Register Period of TLD. Registers Period are :
+<pre><code>Annually (1 Year) : reg="1y"
+Biennially (2 Year) : reg="2y"
+Triennially (3 Year) : reg="3y"
+...</code></pre>
 
 ## Installation
 
