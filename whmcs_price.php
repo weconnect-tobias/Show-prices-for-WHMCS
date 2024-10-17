@@ -6,11 +6,9 @@
  * Version: 1.4
  * Author: Tobias Sörensson
  * Author URI: https://weconnect.se
- * Orginal Author: kamalireal
- * Orginal Author Donate URI: https://www.iranwebsv.net
 */
 /**
- * Developer : Tobias Sörensson, kamalireal
+ * Developer : Tobias Sörensson
  * Web Site  : weconnect.se
  * E-Mail    : tobias@weconnect.se
  */
@@ -46,3 +44,8 @@ define('SF_UUPE_VERSION', '1.0');
 
 // Setting
 require_once WP_WHMCS_Prices_DIR . 'includes/settings.php';
+
+// Initialize the plugin
+if (is_admin()) {
+    new WHMCSPrice(); // This will trigger the class constructor
+}
