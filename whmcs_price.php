@@ -6,9 +6,11 @@
  * Version: 1.4
  * Author: Tobias Sörensson
  * Author URI: https://weconnect.se
+ * Orginal Author: kamalireal
+ * Orginal Author Donate URI: https://www.iranwebsv.net
 */
 /**
- * Developer : Tobias Sörensson
+ * Developer : Tobias Sörensson, kamalireal
  * Web Site  : weconnect.se
  * E-Mail    : tobias@weconnect.se
  */

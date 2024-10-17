@@ -1,8 +1,10 @@
 <?php
 /**
- * Developer : Tobias Sörensson
+ * Developer : Tobias Sörensson, kamalireal
  * Web Site  : weconnect.se
  * E-Mail    : tobias@weconnect.se
+ * Orginal Author: kamalireal
+ * Orginal Author Donate URI: https://www.iranwebsv.net
  */
 
 // Prevent direct access
