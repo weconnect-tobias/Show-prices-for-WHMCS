@@ -1,4 +1,4 @@
-# WHMCS Price Plugin for WordPress
+# Show prices for WHMCS Plugin for WordPress
 
 This plugin is compatible with PHP 8.x and the latest PHP version.
 
