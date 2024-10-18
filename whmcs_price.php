@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: WHMCS Price
+ * Plugin Name: Show Price for WHMCS
  * Plugin URI: 
  * Description: Dynamic way for extracting product & domain price from WHMCS for use on the pages of your website!', 'whmcs-price');
  * Version: 2.0
