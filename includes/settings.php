@@ -161,11 +161,20 @@ public function whmcspr_plugin_page()
     {
         ?>
         <strong><?php _e('How to use short code in :', 'whmcs-price'); ?></strong><br /><br />
-        <?php _e('Post / Pages :', 'whmcs-price'); ?> <input type="text" style="width:343px; direction:ltr; cursor: pointer;" value="[whmcs pid=&#34;1&#34; bc=&#34;1m&#34;]" onclick="this.select()" readonly /><br /><br />
-        <?php _e('Theme :', 'whmcs-price'); ?>  <input type="text" style="width:500px; direction:ltr; cursor: pointer;" value="&#60;&#63;php echo do_shortcode(\'[whmcs pid=&#34;1&#34; bc=&#34;1m&#34;]\')&#59; &#63;&#62;" onclick="this.select()" readonly /><br /><br />
+        <?php _e('Post / Pages :', 'whmcs-price'); ?> 
+<input type="text" style="width:380px; direction:ltr; cursor: pointer;" 
+value="[whmcs pid=&#34;1&#34; show=&#34;name,description,price&#34; bc=&#34;1m&#34;]" 
+onclick="this.select()" readonly />
+<br /><br />
+        <?php _e('Theme :', 'whmcs-price'); ?>  
+<input type="text" style="width:600px; direction:ltr; cursor: pointer;" 
+value="&#60;&#63;php echo do_shortcode(\'[whmcs pid=&#34;1&#34; show=&#34;name,description,price&#34; bc=&#34;1m&#34;]\')&#59; &#63;&#62;" 
+onclick="this.select()" readonly />
+<br /><br />
         <pre><strong><?php _e('English Document:', 'whmcs-price'); ?></strong><br />
         1. <?php _e('Change pid value in shortcode with your Product ID.', 'whmcs-price'); ?><br />
-        2. <?php _e('Change bc value in shortcode with your BillingCycle Product. BillingCycles are :', 'whmcs-price'); ?><br /><br />
+        2. <?php _e('Added show="" to toggle the name, description, price from the datafeed of WHMCS', 'whmcs-price'); ?><br />
+	3. <?php _e('Change bc value in shortcode with your BillingCycle Product. BillingCycles are :', 'whmcs-price'); ?><br /><br />
         <code><?php _e('Monthly (1 Month) : bc="1m"<br />Quarterly (3 Month) : bc="3m"<br />Semiannually (6 Month) : bc="6m"<br />Annually (1 Year) : bc="1y"<br />Biennially (2 Year) : bc="2y"<br />Triennially (3 Year) : bc="3y"', 'whmcs-price'); ?></code><br /><br />
         <strong><hr>
         <?php
