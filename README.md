@@ -15,9 +15,10 @@ Dynamic way for extracting product & domain price from WHMCS for use on the page
 
 ## Product Pricing
 This is shortcode for extract product price:
-<pre><code>[whmcs pid="1" bc="1m"]</code></pre>
-1. Change pid value in shortcode with your Product ID.
-2. Change bc value in shortcode with your BillingCycle Product. BillingCycles are :
+<pre><code>[whmcs pid="1,2,3,4" show="name,description,price" bc="1m"]</code></pre>
+1. Change pid value in shortcode with your Product ID, you can select more then one Product ID.
+2. Added show="" to toggle the name, description, price from the datafeed of WHMCS
+3. Change bc value in shortcode with your BillingCycle Product. BillingCycles are :
 <pre><code>Monthly (1 Month) : bc="1m"
 Quarterly (3 Month) : bc="3m"
 Semiannually (6 Month) : bc="6m"
@@ -52,7 +53,7 @@ If left like this <pre><code>[whmcs tld]</code></pre> then it will fetch all TLD
 
 ## Usage
 
-After activation, configure the plugin by going to `Settings > WHMCS Price` and entering your WHMCS API details.
+After activation, configure the plugin by going to `WHMCS Price` and entering your WHMCS API details.
 
 ## Support
 
