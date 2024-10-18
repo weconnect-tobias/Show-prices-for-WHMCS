@@ -1,8 +1,9 @@
 <?php
 /**
- * Developer : Tobias Sörensson
- * Web Site  : weconnect.se
- * E-Mail    : tobias@weconnect.se
+ * Developer : MohammadReza Kamali, Tobias Sörensson
+ * Web Site  : IRANWebServer.Net, weconnect.se
+ * E-Mail    : kamali@iranwebsv.net, tobias@weconnect.se
+ * السلام علیک یا علی ابن موسی الرضا
  */
 
 // Prevent direct access

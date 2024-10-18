@@ -2,15 +2,16 @@
 /*
  * Plugin Name: WHMCS Price
  * Plugin URI: 
- * Description: <?php _e('Dynamic way for extracting product & domain price from WHMCS for use on the pages of your website!', 'whmcs-price'); ?>
- * Version: 1.4
- * Author: Tobias Sörensson
- * Author URI: https://weconnect.se
+ * Description: Dynamic way for extracting product & domain price from WHMCS for use on the pages of your website!', 'whmcs-price');
+ * Version: 2.0
+ * Author: MohammadReza Kamali, Tobias Sörensson
+ * Author URI: https://www.iranwebsv.net, https://weconnect.se
 */
 /**
- * Developer : Tobias Sörensson
- * Web Site  : weconnect.se
- * E-Mail    : tobias@weconnect.se
+ * Developer : MohammadReza Kamali, Tobias Sörensson
+ * Web Site  : IRANWebServer.Net, weconnect.se
+ * E-Mail    : kamali@iranwebsv.net, tobias@weconnect.se
+ * السلام علیک یا علی ابن موسی الرضا
  */
 
 if (!defined('ABSPATH')) {
